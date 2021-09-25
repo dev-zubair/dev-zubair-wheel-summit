@@ -2,136 +2,136 @@
     {
       "_id": "614f716444d07c8fdc47f571",
       "donation": "$3,913.49",
-      "picture": "http://placehold.it/32x32",
-      "name": "Petty Livingston",
-      "country": "MEXICO",
+      "picture": "https://charity-images.netlify.app/images/1.jpg",
+      "name": "Bill Gates",
+      "country": "United States",
       "email": "pettylivingston@softmicro.com",
-      "phone": "+1 (929) 555-2982"
+      "company": "Microsoft"
     },
     {
       "_id": "614f716400b4ec7293c8895c",
       "donation": "$1,935.93",
-      "picture": "http://placehold.it/32x32",
-      "name": "Bailey Ochoa",
-      "country": "DOMINICA",
+      "picture": "https://charity-images.netlify.app/images/2.jpg",
+      "name": "Warren Buffett",
+      "country": "United States",
       "email": "baileyochoa@softmicro.com",
-      "phone": "+1 (908) 513-3827"
+      "company": "Berkshire Hathway"
     },
     {
       "_id": "614f7164acca53e1b35c5713",
       "donation": "$3,566.18",
-      "picture": "http://placehold.it/32x32",
-      "name": "Rosario Aguirre",
-      "country": "MONTSERRAT",
+      "picture": "https://charity-images.netlify.app/images/3.jpg",
+      "name": "George Soros",
+      "country": "Hungary",
       "email": "rosarioaguirre@softmicro.com",
-      "phone": "+1 (888) 566-3125"
+      "company": "Soros Fund Management"
     },
     {
       "_id": "614f716435bbd3abdeb15576",
       "donation": "$2,074.46",
-      "picture": "http://placehold.it/32x32",
-      "name": "Hodges Owens",
-      "country": "NAMIBIA",
+      "picture": "https://charity-images.netlify.app/images/4.jpg",
+      "name": "Azim Premji",
+      "country": "India",
       "email": "hodgesowens@softmicro.com",
-      "phone": "+1 (810) 440-2715"
+      "company": "Wipro Limited"
     },
     {
       "_id": "614f7164cca8356466673e7b",
       "donation": "$3,667.01",
-      "picture": "http://placehold.it/32x32",
-      "name": "Durham Porter",
-      "country": "QATAR",
+      "picture": "https://charity-images.netlify.app/images/5.jpg",
+      "name": "Charles Francis Feeney",
+      "country": "United States",
       "email": "durhamporter@softmicro.com",
-      "phone": "+1 (883) 429-3066"
+      "company": "Duty-Free Shoppers Group"
     },
     {
       "_id": "614f7164c9366fd020396cd6",
       "donation": "$1,912.70",
-      "picture": "http://placehold.it/32x32",
-      "name": "Winifred Mcguire",
-      "country": "HONDURAS",
+      "picture": "https://charity-images.netlify.app/images/6.jpg",
+      "name": "Gordon Moore",
+      "country": "United States",
       "email": "winifredmcguire@softmicro.com",
-      "phone": "+1 (820) 462-2498"
+      "company": "Intel Corporation"
     },
     {
       "_id": "614f71644adceed897793e05",
       "donation": "$3,629.15",
-      "picture": "http://placehold.it/32x32",
-      "name": "Newton Mcmillan",
-      "country": "FAROE ISLANDS",
+      "picture": "https://charity-images.netlify.app/images/7.jpg",
+      "name": "Carlos Slim Helú",
+      "country": "Mexico",
       "email": "newtonmcmillan@softmicro.com",
-      "phone": "+1 (953) 453-2444"
+      "company": "América Móvil"
     },
     {
       "_id": "614f7164fbda459f609c9d7f",
       "donation": "$1,562.05",
-      "picture": "http://placehold.it/32x32",
-      "name": "Marion Sexton",
-      "country": "EGYPT",
+      "picture": "https://charity-images.netlify.app/images/8.jpg",
+      "name": "Eli Broad",
+      "country": "United States",
       "email": "marionsexton@softmicro.com",
-      "phone": "+1 (835) 549-3804"
+      "company": "Edythe Broad Foundation"
     },
     {
       "_id": "614f71645350657b06b57344",
       "donation": "$3,851.04",
-      "picture": "http://placehold.it/32x32",
-      "name": "Hillary Clements",
-      "country": "CANADA",
+      "picture": "https://charity-images.netlify.app/images/9.jpg",
+      "name": "George Kaiser",
+      "country": "United States",
       "email": "hillaryclements@softmicro.com",
-      "phone": "+1 (948) 553-3508"
+      "company": "BOK Financial Corporation"
     },
     {
       "_id": "614f71641a7e19e274b6a9b5",
       "donation": "$1,527.84",
-      "picture": "http://placehold.it/32x32",
-      "name": "Marisa Evans",
-      "country": "CHRISTMAS ISLAND",
+      "picture": "https://charity-images.netlify.app/images/10.jpg",
+      "name": "Michael Bloomberg",
+      "country": "United States",
       "email": "marisaevans@softmicro.com",
-      "phone": "+1 (947) 464-3054"
+      "company": "Bloomberg L.P."
     },
     {
       "_id": "614f716475ca395f31f39b10",
       "donation": "$1,058.02",
-      "picture": "http://placehold.it/32x32",
-      "name": "Nora Carrillo",
-      "country": "JAPAN",
+      "picture": "https://charity-images.netlify.app/images/11.jpg",
+      "name": "Paul Allen",
+      "country": "United States",
       "email": "noracarrillo@softmicro.com",
-      "phone": "+1 (947) 489-2770"
+      "company": "co-founding Microsoft"
     },
     {
       "_id": "614f7164d9c3f00c279b8e8e",
       "donation": "$2,227.98",
-      "picture": "http://placehold.it/32x32",
-      "name": "Ila Pearson",
-      "country": "COMOROS",
+      "picture": "https://charity-images.netlify.app/images/12.jpg",
+      "name": "Mark Zuckerberg",
+      "country": "United States",
       "email": "ilapearson@softmicro.com",
-      "phone": "+1 (943) 451-3639"
+      "company": "Facebook"
     },
     {
       "_id": "614f7164a05c7fadf3bc9192",
       "donation": "$3,239.38",
-      "picture": "http://placehold.it/32x32",
-      "name": "Doreen Holden",
-      "country": "TOGO",
+      "picture": "https://charity-images.netlify.app/images/13.jpg",
+      "name": "Li Ka-shing",
+      "country": "Hong Kong",
       "email": "doreenholden@softmicro.com",
-      "phone": "+1 (804) 452-2672"
+      "company": "Cheung Kong Holdings"
     },
     {
       "_id": "614f716406f0a82dc79aaf22",
       "donation": "$1,185.69",
-      "picture": "http://placehold.it/32x32",
-      "name": "Liza Monroe",
-      "country": "GUINEA",
+      "picture": "https://charity-images.netlify.app/images/14.jpg",
+      "name": "Jon Huntsman Sr.",
+      "country": "United States",
       "email": "lizamonroe@softmicro.com",
-      "phone": "+1 (945) 470-2954"
+      "company": "Huntsman Corporation"
     },
     {
       "_id": "614f7164dc8f2f9872ac45a5",
       "donation": "$2,328.28",
-      "picture": "http://placehold.it/32x32",
-      "name": "Callie Petersen",
-      "country": "LIBYA",
+      "picture": "https://charity-images.netlify.app/images/15.jpg",
+      "name": "Ted Turner",
+      "country": "United States",
       "email": "calliepetersen@softmicro.com",
-      "phone": "+1 (961) 507-3036"
+      "company": "Cable News Network"
     }
   ]
