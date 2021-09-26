@@ -6,7 +6,7 @@ Our purpose - You can visit our page and invite other people for donating poor c
 
 ### Live URL
 
-Project Live url : [https://charity-images.netlify.app/](https://charity-images.netlify.app/)
+Project Live url : [https://devzubair-wheelsummit.netlify.app/](https://devzubair-wheelsummit.netlify.app/)
 
 ## What technology or assets I have used for building this website
 
@@ -16,11 +16,3 @@ Project Live url : [https://charity-images.netlify.app/](https://charity-images.
 - Bootstrap
 - CSS
 - Fontawesome
-
-
-. NODE.js
-. React.js
-. JSX
-. Bootstrap
-. CSS
-. Fontawesome
