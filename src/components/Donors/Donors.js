@@ -33,6 +33,7 @@ const Donors = () => {
                     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
                         {
                             donors.map(donor => <Person
+                                //used key in here
                                 key={donor._id}
                                 donor={donor}
                                 handleAddToCart={handleAddToCart}

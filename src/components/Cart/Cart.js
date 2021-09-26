@@ -22,7 +22,7 @@ const Cart = (props) => {
 
 function Name({ cart }) {
     return (
-        //The donors name who have donated
+        //The donors name who have donated and also use a KEY in here also
         cart.map(p => <div className='donor-name' key={p.email}><h5><FontAwesomeIcon icon={faThumbsUp} /> {p.name}</h5></div>)
     )
 }
