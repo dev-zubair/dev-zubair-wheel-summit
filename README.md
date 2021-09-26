@@ -2,7 +2,7 @@
 
 Description : Here are our top donor who will donates for Poor People.
 
-Our purpose - You can visit our page and invite other people for donating poor children. 
+Our purpose - You can visit our page and invite other people to donate for the poor children. 
 
 ### Live URL
 
