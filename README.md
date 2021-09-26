@@ -1,14 +1,20 @@
-# My Title will be here
+# Project - The Wheel Summit 2021
 
-Project Live url :[https://charity-images.netlify.app/](https://charity-images.netlify.app/)
 
-## What I have used
+### Live URL
 
+Project Live url : [https://charity-images.netlify.app/](https://charity-images.netlify.app/)
+
+## What technology or assets I have used for building this website
+
+- NODE.js
+- React.js
 - JSX
 - Bootstrap
-- Fontawesome
 - CSS
-- React
+- Fontawesome
+
+
 
 
 

@@ -15,8 +15,13 @@ const Donors = () => {
 
     const handleAddToCart = (donor) => {
         // console.log(donor);
-        const newCart = [...cart, donor];
-        setCart(newCart);
+        let ismatching = cart.find(p => p.name === donor.name)
+        if (!ismatching) {
+            const newCart = [...cart, donor];
+            setCart(newCart);
+        } else (
+            alert('Already Donated')
+        )
 
     }
     return (

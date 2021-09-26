@@ -19,7 +19,7 @@ const Cart = (props) => {
 
 function Name({ cart }) {
     return (
-        cart.map(p => <li>{p.name}</li>)
+        cart.map(p => <div key={p.email}>{p.name}</div>)
     )
 }
 
