@@ -7,20 +7,21 @@ const Donors = () => {
     const [donors, setDonors] = useState([]);
     const [cart, setCart] = useState([]);
 
+    // loaded summit from json file
     useEffect(() => {
         fetch('./summit.json')
             .then(res => res.json())
             .then(data => setDonors(data))
     }, [])
 
+    // Donation click handler function and validation
     const handleAddToCart = (donor) => {
-        // console.log(donor);
         let ismatching = cart.find(p => p.name === donor.name)
         if (!ismatching) {
             const newCart = [...cart, donor];
             setCart(newCart);
         } else (
-            alert('Already Donated')
+            alert('Thank you Sir! You have Already been Donated')
         )
 
     }
@@ -49,59 +50,3 @@ const Donors = () => {
 };
 
 export default Donors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

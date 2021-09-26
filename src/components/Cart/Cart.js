@@ -4,13 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faDollarSign, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = (props) => {
+    // calculate total donation by using reduce method
     const totalDonation = props.cart.reduce((previous, donor) => previous + +donor.donation, 0)
 
 
     return (
-        <div>
-            <h5><FontAwesomeIcon icon={faUser} /> {props.cart.length}</h5>
-            <h5>Total Funded <FontAwesomeIcon icon={faDollarSign} />: {totalDonation}</h5>
+        <div className='cart-section'>
+            <h2><FontAwesomeIcon icon={faUser} /> {props.cart.length}</h2>
+            <h4>Total Funded <FontAwesomeIcon icon={faDollarSign} />: {totalDonation}</h4>
             <ul>
                 <Name cart={props.cart} />
             </ul>
@@ -21,6 +22,7 @@ const Cart = (props) => {
 
 function Name({ cart }) {
     return (
+        //The donors name who have donated
         cart.map(p => <div className='donor-name' key={p.email}><h5><FontAwesomeIcon icon={faThumbsUp} /> {p.name}</h5></div>)
     )
 }
