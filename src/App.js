@@ -1,14 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import Header from './components/Header/Header.js';
+import Donors from './components/Donors/Donors.js';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-const element = <FontAwesomeIcon icon={faCoffee} />
+// const element = <FontAwesomeIcon icon={faCoffee} />
 
 function App() {
   return (
     <div>
-      <h1 className='title'>{element} Create React File</h1>
+      <Header></Header>
+      <Donors></Donors>
     </div>
   );
 }
