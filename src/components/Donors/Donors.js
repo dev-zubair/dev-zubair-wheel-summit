@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart.js';
 import Person from '../Person/Person.js';
-import './Donors.css';
+import './Donors.css'
 
 const Donors = () => {
     const [donors, setDonors] = useState([]);
@@ -20,23 +20,83 @@ const Donors = () => {
 
     }
     return (
-        <div>
-            <div className='donors-container'>
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
-                    {
-                        donors.map(donor => <Person
-                            key={donor._id}
-                            donor={donor}
-                            handleAddToCart={handleAddToCart}
-                        ></Person>)
-                    }
+        <div className="container">
+
+            <div className="row donors-main">
+                <div className="col-9 donors">
+                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+                        {
+                            donors.map(donor => <Person
+                                key={donor._id}
+                                donor={donor}
+                                handleAddToCart={handleAddToCart}
+                            ></Person>)
+                        }
+                    </div>
                 </div>
-                <div className='right-section'>
+                <div className='col-3 cart-section'>
                     <Cart cart={cart}></Cart>
                 </div>
             </div>
+
         </div>
     );
 };
 
 export default Donors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

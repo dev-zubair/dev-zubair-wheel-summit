@@ -12,7 +12,7 @@ const Person = (props) => {
     const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div>
-            <div style={{ width: '325px' }}>
+            <div style={{ width: '300px' }}>
                 <div className="card h-100 mb-5">
                     <img src={picture} alt="" />
                     <div className="card-body">
