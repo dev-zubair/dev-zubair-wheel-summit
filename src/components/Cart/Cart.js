@@ -1,5 +1,7 @@
 import React from 'react';
 import './Cart.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faDollarSign, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = (props) => {
     const totalDonation = props.cart.reduce((previous, donor) => previous + +donor.donation, 0)
@@ -7,8 +9,8 @@ const Cart = (props) => {
 
     return (
         <div>
-            <h5>Total Donors: {props.cart.length}</h5>
-            <h5>Total Donation: {totalDonation}</h5>
+            <h5><FontAwesomeIcon icon={faUser} /> {props.cart.length}</h5>
+            <h5>Total Funded <FontAwesomeIcon icon={faDollarSign} />: {totalDonation}</h5>
             <ul>
                 <Name cart={props.cart} />
             </ul>
@@ -19,7 +21,7 @@ const Cart = (props) => {
 
 function Name({ cart }) {
     return (
-        cart.map(p => <div key={p.email}>{p.name}</div>)
+        cart.map(p => <div className='donor-name' key={p.email}><h5><FontAwesomeIcon icon={faThumbsUp} /> {p.name}</h5></div>)
     )
 }
 
