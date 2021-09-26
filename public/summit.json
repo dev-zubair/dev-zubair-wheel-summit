@@ -1,7 +1,7 @@
 [
     {
       "_id": "614f716444d07c8fdc47f571",
-      "donation": "$3,913.49",
+      "donation": "3913",
       "picture": "https://charity-images.netlify.app/images/1.jpg",
       "name": "Bill Gates",
       "country": "United States",
@@ -10,7 +10,7 @@
     },
     {
       "_id": "614f716400b4ec7293c8895c",
-      "donation": "$1,935.93",
+      "donation": "1935",
       "picture": "https://charity-images.netlify.app/images/2.jpg",
       "name": "Warren Buffett",
       "country": "United States",
@@ -19,7 +19,7 @@
     },
     {
       "_id": "614f7164acca53e1b35c5713",
-      "donation": "$3,566.18",
+      "donation": "3566",
       "picture": "https://charity-images.netlify.app/images/3.jpg",
       "name": "George Soros",
       "country": "Hungary",
@@ -28,7 +28,7 @@
     },
     {
       "_id": "614f716435bbd3abdeb15576",
-      "donation": "$2,074.46",
+      "donation": "2074",
       "picture": "https://charity-images.netlify.app/images/4.jpg",
       "name": "Azim Premji",
       "country": "India",
@@ -37,7 +37,7 @@
     },
     {
       "_id": "614f7164cca8356466673e7b",
-      "donation": "$3,667.01",
+      "donation": "3667",
       "picture": "https://charity-images.netlify.app/images/5.jpg",
       "name": "Charles Francis Feeney",
       "country": "United States",
@@ -46,7 +46,7 @@
     },
     {
       "_id": "614f7164c9366fd020396cd6",
-      "donation": "$1,912.70",
+      "donation": "1912",
       "picture": "https://charity-images.netlify.app/images/6.jpg",
       "name": "Gordon Moore",
       "country": "United States",
@@ -55,7 +55,7 @@
     },
     {
       "_id": "614f71644adceed897793e05",
-      "donation": "$3,629.15",
+      "donation": "3629",
       "picture": "https://charity-images.netlify.app/images/7.jpg",
       "name": "Carlos Slim Helú",
       "country": "Mexico",
@@ -64,7 +64,7 @@
     },
     {
       "_id": "614f7164fbda459f609c9d7f",
-      "donation": "$1,562.05",
+      "donation": "1562",
       "picture": "https://charity-images.netlify.app/images/8.jpg",
       "name": "Eli Broad",
       "country": "United States",
@@ -73,7 +73,7 @@
     },
     {
       "_id": "614f71645350657b06b57344",
-      "donation": "$3,851.04",
+      "donation": "3851",
       "picture": "https://charity-images.netlify.app/images/9.jpg",
       "name": "George Kaiser",
       "country": "United States",
@@ -82,7 +82,7 @@
     },
     {
       "_id": "614f71641a7e19e274b6a9b5",
-      "donation": "$1,527.84",
+      "donation": "1527",
       "picture": "https://charity-images.netlify.app/images/10.jpg",
       "name": "Michael Bloomberg",
       "country": "United States",
@@ -91,7 +91,7 @@
     },
     {
       "_id": "614f716475ca395f31f39b10",
-      "donation": "$1,058.02",
+      "donation": "1058",
       "picture": "https://charity-images.netlify.app/images/11.jpg",
       "name": "Paul Allen",
       "country": "United States",
@@ -100,7 +100,7 @@
     },
     {
       "_id": "614f7164d9c3f00c279b8e8e",
-      "donation": "$2,227.98",
+      "donation": "2227",
       "picture": "https://charity-images.netlify.app/images/12.jpg",
       "name": "Mark Zuckerberg",
       "country": "United States",
@@ -109,7 +109,7 @@
     },
     {
       "_id": "614f7164a05c7fadf3bc9192",
-      "donation": "$3,239.38",
+      "donation": "3239",
       "picture": "https://charity-images.netlify.app/images/13.jpg",
       "name": "Li Ka-shing",
       "country": "Hong Kong",
@@ -118,7 +118,7 @@
     },
     {
       "_id": "614f716406f0a82dc79aaf22",
-      "donation": "$1,185.69",
+      "donation": "1185",
       "picture": "https://charity-images.netlify.app/images/14.jpg",
       "name": "Jon Huntsman Sr.",
       "country": "United States",
@@ -127,7 +127,7 @@
     },
     {
       "_id": "614f7164dc8f2f9872ac45a5",
-      "donation": "$2,328.28",
+      "donation": "2328",
       "picture": "https://charity-images.netlify.app/images/15.jpg",
       "name": "Ted Turner",
       "country": "United States",

@@ -1,25 +1,27 @@
 import React from 'react';
 import './Person.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+
+
 
 const Person = (props) => {
+    // console.log('clicked');
     const { name, picture, company, country, email, donation } = props.donor;
+
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src={picture} alt="" />
-                        <div class="card-body">
-                            <h1 class="card-title">Name: {name}</h1>
-                            <h4 class="card-title">Company: {company}</h4>
-                            <h5 class="card-title">Country: {country}</h5>
-                            <h6 class="card-title">Email: {email}</h6>
-                            <h3 class="card-title">Donaite: {donation}</h3>
-                            <button>Add To cart</button>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
+            <div style={{ width: '325px' }}>
+                <div className="card h-100 mb-5">
+                    <img src={picture} alt="" />
+                    <div className="card-body">
+                        <h3 className="card-title">{name}</h3>
+                        <h6 className="card-title">Company: {company}</h6>
+                        <h6 className="card-title">Country: {country}</h6>
+                        <h6 className="card-title">Email: {email}</h6>
+                        <h4 className="card-title">Donate: {donation}</h4>
+                        <button onClick={() => props.handleAddToCart(props.donor)} className='btn btn-primary'>{element} Add To cart</button>
                     </div>
                 </div>
             </div>
